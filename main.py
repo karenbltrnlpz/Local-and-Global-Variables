@@ -103,4 +103,10 @@ def increase_score(score, points):
 
 """LOCAL SCOPE: any variable that is inside the function body including the function parameters. Remember that these variables can only be referenced inside the function. 
 
-OUTER SCOPE: any variable defined outside of functions are globally available. These variables can be used anywhere throughout the file."""
+OUTER SCOPE: any variable defined outside of functions are globally available. These variables can be used anywhere throughout the file.
+
+PYTHON SCOPE Rules:
+--> Python can go OUT in scope to look for a value
+--> Python will use the FIRST value it can find
+--> Python WILL NEVER go into another scope to look for a value
+"""
