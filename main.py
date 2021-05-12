@@ -82,7 +82,23 @@ def sh_fav_clr(person, fav_color):
 	return "Sucess"
 
 
-res = sh_fav_clr(name, fav_color)
-print(res)
+# res = sh_fav_clr(name, fav_color)
+# print(res)
 
-#increasing a score filter
+#increasing a score function
+
+
+
+def increase_score(score, points):
+	""" Returns the new score total """
+
+	score = score + points
+	print(score)
+
+	return score
+
+# score = 0
+# score = increase_score(score, 5)
+# print(score)
+
+# Local Scope: any variable that is inside the function body including the function parameters. Remember that these variables can only be referenced inside the function. 
