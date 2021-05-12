@@ -101,4 +101,6 @@ def increase_score(score, points):
 # score = increase_score(score, 5)
 # print(score)
 
-# Local Scope: any variable that is inside the function body including the function parameters. Remember that these variables can only be referenced inside the function. 
+"""LOCAL SCOPE: any variable that is inside the function body including the function parameters. Remember that these variables can only be referenced inside the function. 
+
+OUTER SCOPE: any variable defined outside of functions are globally available. These variables can be used anywhere throughout the file."""
