@@ -56,4 +56,33 @@ def common_words_list(words1, words2):
 def find_divisible_nums(num1, num2, num3):
 	"""function taking three integer arguments and returns a list of numbers from 1 to 100 (inclusive) containing only the numbers that are evenly divisible by at least one of the arguments"""
 
-	
+	num = 1
+	multiples_list = []
+
+	while num <= 100:
+		if (num % num1 == 0) or (num % num2 == 0) or (num % num3 == 0):
+			multiples_list.append(num)
+
+		num += 1
+		
+	return multiples_list
+
+# print(find_divisible_nums(31, 37, 39))
+
+def ans():
+	return "The answer is 42"
+
+# print(ans())
+
+name = 'Brighticorn'
+fav_color = 'sparkle'
+
+def sh_fav_clr(person, fav_color):
+	print(f"{person} likes {fav_color}")
+	return "Sucess"
+
+
+res = sh_fav_clr(name, fav_color)
+print(res)
+
+#increasing a score filter
